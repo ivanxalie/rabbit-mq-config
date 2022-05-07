@@ -1,0 +1,14 @@
+
+spring:
+  rabbitmq:
+    addresses:
+      - localhost:5672
+
+queue:
+  name: message_queue
+
+routing_key:
+  name: message_routingKey
+
+message_exchange:
+  name: message_exchange
